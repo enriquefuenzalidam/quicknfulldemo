@@ -1,0 +1,30 @@
+{
+  "A1" : [
+    { "lgSize": "30748283lg", "mdSize": "30748283md", "smSize": "30748283sm" },
+    { "lgSize": "30214899lg", "mdSize": "30214899md", "smSize": "30214899sm" },
+    { "lgSize": "30778798lg", "mdSize": "30778798md", "smSize": "30778798sm" },
+    { "lgSize": "30778799lg", "mdSize": "30778799md", "smSize": "30778799sm" },
+    { "lgSize": "1468555lg",  "mdSize": "1468555md",  "smSize": "1468555sm" },
+    { "lgSize": "30736887lg", "mdSize": "30736887md", "smSize": "30736887sm" },
+    { "lgSize": "30765287lg", "mdSize": "30765287md", "smSize": "30765287sm" },
+    { "lgSize": "3608263lg",  "mdSize": "3608263md",  "smSize": "3608263sm" },
+    { "lgSize": "2246476lg",  "mdSize": "2246476md",  "smSize": "2246476sm" },
+    { "lgSize": "3596102lg",  "mdSize": "3596102md",  "smSize": "3596102sm" },
+    { "lgSize": "30718468lg", "mdSize": "30718468md", "smSize": "30718468sm" },
+    { "lgSize": "11542516lg", "mdSize": "11542516md", "smSize": "11542516sm" }
+  ],
+  "A2" : [
+    { "lgSize": "19400410lg", "mdSize": "19400410md", "smSize": "19400410sm" },
+    { "lgSize": "41006lg",    "mdSize": "41006md",    "smSize": "41006sm" },
+    { "lgSize": "76969lg",    "mdSize": "76969md",    "smSize": "76969sm" },
+    { "lgSize": "461940lg",   "mdSize": "461940md",   "smSize": "461940sm" },
+    { "lgSize": "30692712lg", "mdSize": "30692712md", "smSize": "30692712sm" },
+    { "lgSize": "2378278lg",  "mdSize": "2378278md",  "smSize": "2378278sm" },
+    { "lgSize": "30749714lg", "mdSize": "30749714md", "smSize": "30749714sm" },
+    { "lgSize": "417074lg",   "mdSize": "417074md",   "smSize": "417074sm" },
+    { "lgSize": "30735040lg", "mdSize": "30735040md", "smSize": "30735040sm" },
+    { "lgSize": "30747387lg", "mdSize": "30747387md", "smSize": "30747387sm" },
+    { "lgSize": "30730409lg", "mdSize": "30730409md", "smSize": "30730409sm" },
+    { "lgSize": "26770601lg", "mdSize": "26770601md", "smSize": "26770601sm" }
+  ]
+}
