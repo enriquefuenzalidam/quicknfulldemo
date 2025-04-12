@@ -10,9 +10,11 @@ Desarrollado por [Enrique Fuenzalida](https://github.com/enriquefuenzalidam) par
 
 ## Licencia
 
-Este componente está licenciado bajo la [Licencia MIT](LICENSE) ![MIT License](https://img.shields.io/badge/license-MIT-blue).
+Este componente está licenciado bajo la [Licencia MIT](LICENSE)
 
 © 2025 [individual.cl](https://individual.cl) — Componente Quick’n’Full
+
+![MIT License](https://img.shields.io/badge/license-MIT-blue)
 
 
 ## Requisitos
