@@ -16,7 +16,7 @@ export default function Home() {
 
           initialIndex = {4}         // Posición de la imagen a mostrar al comienzo de la iteración.
 
-          discosColor = "red"        // Color de los selectores del navegador.
+          discosColor = "rgb(180,83,9)"        // Color de los selectores del navegador.
 
           maxAltura = {32}           // (rem) Usar 32, 28, 20, 18. Cualquier otra 
                                      // cifra será acercada a las anteriores.

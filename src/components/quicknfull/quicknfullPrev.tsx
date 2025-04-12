@@ -212,7 +212,7 @@ const QuicknfullPrev: React.FC<ProntoVistaPrevGalProps> = ({ imagesList, listKey
                     boxShadow: onlyPrvIndexes.has(index) ? "none" : previousAndCurrentIndexes.has(index) ? onlyNewCurrent.has(index) ? "0 10px 12px -3px rgba(0, 0, 0, 0.6), 0 4px 3px -2px rgba(0, 0, 0, 0.6)" : beforeAfter1.has(index) ? "0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.4)" : "0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.2)" : "none",
                     left: onlyPrvIndexes.has(index) ? `calc( 50% - ${currentAltura * 0.5}rem )` : previousAndCurrentIndexes.has(index) ? onlyNewCurrent.has(index) ? `calc( 50% - ${currentAltura * 0.5}rem )` : onlyNewBefore2.has(index) ? `0%` : onlyNewBefore1.has(index) ? `calc( 20% - ${currentAltura * 0.2}rem )` : onlyNewwAfter1.has(index) ? `calc( 80% - ${currentAltura * 0.8}rem )` : `calc( 100% - ${currentAltura}rem )` : `calc( 50% - ${currentAltura * 0.5}rem )`,
                     transform: onlyPrvIndexes.has(index) ? "scale(0.01)" : previousAndCurrentIndexes.has(index) ? onlyNewCurrent.has(index) ? "scale(1.1)" : beforeAfter1.has(index) ? "scale(1.05)" : "scale(0.92)" : "scale(0.01)",
-                    height: `${currentAltura}rem`
+                    height: isXlParent ? 'calc(100% - 5.4rem)' : isLgParent ? 'calc(100% - 4.6rem)' : isMdParent ? 'calc(100% - 3.6rem)' : 'calc(100% - 3rem)' // currentAltura + 'rem'
                 })
 
                 const imageBlockStyleB: React.CSSProperties = ({
