@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quick'n'Full — Demostración
 
-## Getting Started
+Este repositorio contiene una demostración del componente `Quick'n'Full`, desarrollado con Next.js.
 
-First, run the development server:
+
+## Autor
+
+Desarrollado por [Enrique Fuenzalida](https://github.com/enriquefuenzalidam) para [individual.cl](https://individual.cl).
+
+
+## Licencia
+
+Este componente está licenciado bajo la [Licencia MIT](LICENSE) ![MIT License](https://img.shields.io/badge/license-MIT-blue).
+
+© 2025 [individual.cl](https://individual.cl) — Componente Quick’n’Full
+
+
+## Requisitos
+
+- Node.js (v18 o superior recomendado)
+- npm (v9 o superior)
+
+Puedes verificar tu versión de Node con:
+
+```bash
+node -v
+```
+
+## Instalación
+
+Clona este repositorio y ejecuta la instalación de dependencias:
+
+```bash
+git clone https://github.com/enriquefuenzalidam/quicknfulldemo.git
+cd quicknfulldemo
+npm install
+```
+
+## Ejecución en entorno local
+
+Una vez instaladas las dependencias, levanta el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Luego abre tu navegador y visita:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Estructura
 
-## Learn More
+```
+quicknfulldemo
+├── README.md
+├── eslint.config.mjs
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── src
+│   ├── app
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── quicknfullMain
+│   │       └── [listKey]
+│   │           └── [index]
+│   │               └── [color]
+│   │                   ├── page.tsx
+│   │                   └── quicknfullMainParams.tsx
+│   ├── assets
+│   │   └── exampleImages
+│   └── components
+│       └── quicknfull
+│           ├── exampleImagesLists.tsx
+│           ├── quicknfullComm.tsx
+│           ├── quicknfullMain.tsx
+│           └── quicknfullPrev.tsx
+└── tsconfig.json
+```
 
-To learn more about Next.js, take a look at the following resources:
+## ¿Qué es Quick'n'Full?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Componente modular de galería para Next.js que permite:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Navegación fluida entre imágenes con transiciones optimizadas.
+- Soporte para listas dinámicas de imágenes (via props o archivos JSON).
+- Precarga inteligente para mejorar el rendimiento visual.
+- Estilos adaptativos para distintos tamaños de pantalla.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Notas
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Este proyecto aún no incluye el paquete empaquetado para producción (npm pack).
+- Solo está pensado como demo para desarrollo local.
+
+---
+
+Sugerencias y contribuciones son bienvenidas
+
