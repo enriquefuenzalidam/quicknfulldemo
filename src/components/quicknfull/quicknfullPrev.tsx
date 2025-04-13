@@ -216,11 +216,11 @@ const QuicknfullPrev: React.FC<ProntoVistaPrevGalProps> = ({ imagesList, listKey
                 })
 
                 const imageBlockStyleB: React.CSSProperties = ({
-                    position: 'relative', boxSizing: 'border-box', width: '100%', height: '100%', display: 'block', justifyContent: 'center', alignItems: 'center', transition: "all 300ms linear", margin: '0', padding: '0',
-                    opacity: onlyNewCurrent.has(index) ? 1 : beforeAfter1.has(index) ? 0.62 : 0.24 })
+                    position: 'relative', boxSizing: 'border-box', width: '100%', height: '100%', display: 'block', transition: "all 300ms linear", margin: '0', padding: '0',
+                    opacity: onlyNewCurrent.has(index) ? 1 : beforeAfter1.has(index) ? 0.62 : 0.24, border: 'none' })
 
                 const imageElementStyle: React.CSSProperties = ({
-                    objectFit: 'cover', transition: 'opacity 300ms ease-in-out', opacity: previousAndCurrentIndexes.has(index) ? loadedImages[index] ? 1 : 0 : 0 })
+                    objectFit: 'cover', border: 'none', transition: 'opacity 300ms ease-in-out', opacity: previousAndCurrentIndexes.has(index) ? loadedImages[index] ? 1 : 0 : 0 })
 
                 const delayedHref = onlyNewCurrent.has(index) ? `/quicknfullMain/${listKey}/${currentGalleryIndex}/${encodeURIComponent(hexSeleccColor)}` : '#';
 
