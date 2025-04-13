@@ -4,7 +4,9 @@ import { ExampleImagesLists } from '@/components/quicknfull/exampleImagesLists';
 
 export default function Home() {
   return (
-      <main style={{ display: 'block', boxSizing: 'border-box', width: '100%', margin: '1rem', padding: '0' }}>
+      <main style={{ display: 'block', boxSizing: 'border-box', width: '100%', margin: '0', padding: '1rem' }}>
+
+        <section>   {/* El elemento contenedor no debe tener alto fijo. */}
 
         <QuicknfullPrev
 
@@ -29,6 +31,8 @@ export default function Home() {
           navegador = {true}         // Mostrar o no mostrar el navegador de selectores.
 
           />
+
+          </section>
 
       </main>
   );
