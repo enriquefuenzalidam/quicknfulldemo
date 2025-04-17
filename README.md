@@ -101,5 +101,6 @@ Componente modular de galería para Next.js que permite:
 
 ---
 
-Sugerencias y contribuciones son bienvenidas
+Sugerencias y contribuciones son bienvenidos
+[PayPal](https://www.paypal.com/paypalme/enriquefuenzalidacl)
 
