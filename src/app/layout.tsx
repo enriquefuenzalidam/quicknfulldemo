@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Quick'n'Full Demostración",
-  description: "",
+  title: {
+    template: "%s | Quick'n'Full Demo",
+    default: "Quick'n'Full Demo"
+  },
+  description: ""
 };
 
 export default function RootLayout({

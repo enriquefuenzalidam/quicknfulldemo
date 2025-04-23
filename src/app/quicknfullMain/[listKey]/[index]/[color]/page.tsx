@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import QuicknfullMainParams from "./quicknfullMainParams";
 
 export const metadata = {
-    title: "ProntoVista Galería Principal" };
+    title: "Quick'n'Full | Galería Principal" };
 
 const Page: React.FC = () => {
     return React.createElement(Suspense, { fallback: null },
