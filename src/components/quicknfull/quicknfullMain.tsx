@@ -7,14 +7,14 @@ interface ImageSizes {
     mdSize: string | StaticImageData;
     smSize: string | StaticImageData; };
 
-interface ProntoVistaFullProps {
+interface QuicknfullMainProps {
     imagesList: { [key: string]: ImageSizes[] };
     listKey?: string;
     jsonLista?: boolean;
     indiceInicial: number;
     seleccColor?: string; }
 
-const QuicknfullMain: React.FC<ProntoVistaFullProps> = ({ imagesList, listKey, jsonLista = false, indiceInicial, seleccColor }) => {
+const QuicknfullMain: React.FC<QuicknfullMainProps> = ({ imagesList, listKey, jsonLista = false, indiceInicial, seleccColor }) => {
 
     const listKeys = Object.keys(imagesList);
     const selectedKey = listKey && imagesList[listKey] ? listKey : listKeys[0];
